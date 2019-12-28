@@ -30,7 +30,6 @@ class ViewController: UIViewController {
 		imageView.animationDuration = 1
 		imageView.startAnimating()
 		
-		animView.backgroundColor = .clear
 		Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(randomColor), userInfo: nil, repeats: true)
 		}
 	
